@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="PegSolitaire.TableControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Width="50" Height="50">
+    
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Rectangle x:Name="RectangleTable" Fill="Brown" Width="44" Height="44">
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="2" Color="Black" />
+            </Rectangle.Effect>
+        </Rectangle>
+    </Grid>
+</UserControl>
